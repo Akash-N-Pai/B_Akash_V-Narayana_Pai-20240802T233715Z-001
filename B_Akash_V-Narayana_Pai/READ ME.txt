@@ -1,0 +1,23 @@
+CS586 Software System Architecture
+
+This project is GasPump system 
+
+Driver class runs the entire system
+
+The main set of code is divided into 5 packages 
+1.MainClass - Output , MDAEFSM , GP_1 , GP_2
+2.ActionStrategies - this has all the meta actions present in Output classes specified to that particular GasPump
+3.AbstractFactory- this has classes of abstract factory which is used to link the right strategy with right GasPump
+4.State-this has classes that is used to run state pattern to link MDAEFSM and OutPut class i.e connects meta events 
+        to meta action
+
+To run the code :
+load the Source file "src" file to IDE of your choice and run the Driver class and the code is designed in such 
+a way that it will assist you to run further.
+
+To run Executabel File 
+GasPump.jar
+
+the jar file in the folder needs to be copied to the desktop and then run the code below in commond prompt
+
+java -jar Desktop\GasPump.jar
